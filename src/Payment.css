@@ -1,0 +1,130 @@
+.payment {
+    margin: 20px 80px;
+}
+
+.payment__match-name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.payment__details {
+    box-shadow: 2px 5px 8px #ccc;
+    padding: 5px 30px;
+}
+
+.payment__summary {
+    display: grid;
+    grid-template-columns: 2fr 1fr max-content;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.payment__summary-qty {
+    justify-self: center;
+    text-align: center;
+}
+
+.payment__summary-price {
+    justify-self: end;
+    text-align: center;
+}
+
+.payment__total {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.payment__total-figures {
+    justify-self: end;
+    color: #0E2A77;
+    font-weight: 700;
+}
+
+.payment__p {
+    font-size: 2.5rem;
+}
+
+.payment__indicator {
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.payment__indicator-tobepaid {
+    background: #0E2A77;
+    width: 340px;
+    text-align: center;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+.payment__indicator-inserted {
+    background: #8593BA;
+    width: 340px;
+    text-align: center;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+.payment__indicator-title {
+    justify-self: center;
+    font-size: 2.5rem;
+    align-self: end;
+    transform: translateY(-3px);
+}
+
+.payment__indicator-price {
+    align-self: end;
+    font-weight: 700;
+}
+
+.payment__modal {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    bottom: 40px;
+    outline: none;
+    padding: 5px;
+    width: 500px;
+    margin: 140px auto;
+    justify-content: center;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.payment__modal-wrapper {
+    background: #fff;
+    padding: 75px 5px;
+    box-shadow: 2px 5px 8px #ccc;
+}
+
+.payment__modal-balance {
+    width: 400px;
+    margin: 0 auto;
+    background: #0E2A77;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    padding: 8px;
+}
+
+.method__modal {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    bottom: 40px;
+    outline: none;
+    padding: 5px;
+    width: 500px;
+    margin: 140px auto;
+    justify-content: center;
+    padding-top: 35px;
+}

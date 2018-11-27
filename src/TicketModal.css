@@ -1,0 +1,117 @@
+.modal-content2{
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    font-size: 2rem;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: -6px 2px 5px #8080805e;
+}
+.modal-title{
+    font-weight: 900;
+    text-align: left;
+    
+}
+.modal-title2{
+    /* text-align: left; */
+    font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
+    text-align: right;
+}
+.modal-title3{
+    font-weight: 900;
+    text-align: left;
+    
+}
+.modal-title4{
+    font-weight: 900;
+    text-align: right;
+    
+}
+.modal-body{
+    box-shadow: -6px 2px 5px #8080805e;
+}
+.btnCounter{
+    border: none;
+    background-color: #0E2A77;
+    color: white;
+    border-radius: 10px;
+    display: inline;
+    padding: 5px 12px;
+}
+.counter{
+    display: inline;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+@media (min-width: 768px){
+    .modal-dialog {
+    margin: 140px auto;
+    width: 500px;
+}
+}
+hr{
+    margin-bottom: 5px;
+}
+.btnCloseModal{
+  background-color: #707070;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  margin-right: 5%;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+  float: left;
+}
+.btnOpenModal{
+  background-color: #0E2A77;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  margin-right: 0;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.cash{
+  background-color: #0E2A77;
+  border-radius: 4px;
+  color: white;
+  padding: 50px 80px;
+  border: none;
+  margin-right: 0;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.fpx{
+    background-color: #5AA840;
+  border-radius: 4px;
+  color: white;
+  padding: 20px 90px;
+  border: none;
+  margin-right: 0;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.btnPaysection{
+    text-align: center
+}
+.paymentMethod{
+    font-weight: bolder;
+    margin: 0;
+}

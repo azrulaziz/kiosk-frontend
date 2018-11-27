@@ -1,0 +1,100 @@
+.topHeader{
+  width: 100%;
+  background-color: #0E2A77;
+}
+.logo1{
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.logo3{
+  width: 20%;
+  margin-top: 1.5%;
+  float: right;
+  margin-right: 5%;
+}
+.eventTitle{
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+.eventDatenTime{
+  text-align: center;
+  margin: 0;
+  font-weight: initial;
+}
+.EventBig{
+  width: 60%;
+  margin: auto;
+  display:block;
+}
+.btnNext{
+  background-color: #0E2A77;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  float: right;
+  margin-right: 20%;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: -3px;
+}
+.btnBack{
+  background-color: #707070;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  margin-right: 5%;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.btnpay{
+  background-color: #0E2A77;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  margin-right: 5%;
+  box-shadow:  1px 3px 5px grey;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.Eventlayout{
+  width: 35%;
+  margin: auto;
+  display:block;
+}
+.ticketTitle{
+  font-weight:900;
+  font-size: 2rem;
+}
+.row{
+  text-align: center;
+}
+.container2 {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.panel {
+  border: 0.5px solid #55555526;
+  box-shadow: -6px 2px 5px #8080805e;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.panel:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.ticketList{
+  padding: 10px;
+  height: 180px;
+  overflow: auto;
+}
